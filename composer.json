@@ -1,0 +1,33 @@
+{
+  "name": "tobelyan/omnipay-ameria",
+  "type": "library",
+  "description": "Ameria Bank payment gateway using Omnipay library [Laravel]",
+  "keywords": [
+    "gateway",
+    "merchant",
+    "omnipay",
+    "Ameria",
+    "pay",
+    "payment",
+    "purchase"
+  ],
+  "homepage": "https://github.com/tobelyan/omnipay-ameria",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rafayel Tobelyan",
+      "email": "tobelyan@dineuron.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\Ameria\\": "src/"
+    }
+  },
+  "require": {
+    "omnipay/common": "^3"
+  },
+  "require-dev": {
+    "omnipay/tests": "^3"
+  }
+}
