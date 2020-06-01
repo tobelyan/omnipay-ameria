@@ -22,7 +22,7 @@ class Response extends AbstractResponse implements RedirectResponseInterface
      * Gateway payment Url
      * @var string
      */
-    protected $merchantUrl = 'https://servicestest.ameriabank.am/VPOS/Payments/Pay';
+    protected $merchantUrl = 'https://services.ameriabank.am/VPOS/Payments/Pay';
     protected $merchantTestUrl = 'https://servicestest.ameriabank.am/VPOS/Payments/Pay';
 
     /**
