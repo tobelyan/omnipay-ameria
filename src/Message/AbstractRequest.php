@@ -14,7 +14,7 @@ abstract class AbstractRequest extends CommonAbstractRequest
      * Endpoint URL'S for main payment system.
      * @var string URL
      */
-    protected $endpoint = 'https://services.ameriabank.am/VPOS/api/VPOS';
+    protected $endpoint = 'https://services.ameriabank.am/VPOS/api/VPOS/';
     protected $testEndpoint = 'https://servicestest.ameriabank.am/VPOS/api/VPOS/';
 
     /**
